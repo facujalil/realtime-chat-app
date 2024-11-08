@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply overflow-x-hidden min-h-screen font-mulish text-white bg-custom-gradient-75deg;
+}
+
+@layer utilities {
+  .hidden-scroll::-webkit-scrollbar {
+    width: 0;
+  }
+}
